@@ -14,7 +14,7 @@ const Badge = ({ percent }) => {
   return <span className={resultStyles.badgeNeedsWork}>Needs Work</span>;
 };
 
-export default function MyResult({ apiBase = "http://localhost:4000" }) {
+export default function MyResult({ apiBase = "https://quiz-app-backend-ayd7.onrender.com" }) {
   const [results, setResults] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);

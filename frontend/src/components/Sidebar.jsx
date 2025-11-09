@@ -7,7 +7,7 @@ import {BookOpen,Code,Database,Coffee,Cpu,Globe,Layout,ChevronRight,ChevronDown,
 import questionsData from "../assets/dummydata";
 import { sidebarStyles } from "../assets/dummyStyles";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://quiz-app-backend-ayd7.onrender.com";
 
 const Sidebar = () => {
   const [selectedTech, setSelectedTech] = useState(null);

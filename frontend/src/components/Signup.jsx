@@ -18,7 +18,7 @@ export default function SignUp({ onSignupSuccess = null }) {
   const [submitError, setSubmitError] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const API_BASE = "http://localhost:4000";
+  const API_BASE = "https://quiz-app-backend-ayd7.onrender.com";
 
   const validate = () => {
     const e = {};
